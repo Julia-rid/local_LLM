@@ -1,0 +1,9 @@
+model_id: stockmark/stockmark-13b-instruct
+runtime: transformers
+attn_implementation: sdpa
+load_in_4bit: true
+compute_dtype: bfloat16
+temperature: 0.3
+top_p: 0.9
+repetition_penalty: 1.05
+max_new_tokens: 512

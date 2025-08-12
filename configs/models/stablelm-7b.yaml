@@ -1,0 +1,9 @@
+model_id: stabilityai/japanese-stablelm-instruct-gamma-7b
+runtime: transformers
+attn_implementation: sdpa
+load_in_4bit: true
+compute_dtype: bfloat16
+temperature: 0.4
+top_p: 0.9
+repetition_penalty: 1.1
+max_new_tokens: 512

@@ -1,0 +1,9 @@
+model_id: Qwen/Qwen2.5-7B-Instruct
+runtime: transformers
+attn_implementation: flash_attention_2
+load_in_4bit: true
+compute_dtype: bfloat16
+temperature: 0.3
+top_p: 0.9
+repetition_penalty: 1.05
+max_new_tokens: 512

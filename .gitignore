@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+
+# Data / runs
+runs/
+outputs/
+*.log
+
+# Model weights / caches
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.ckpt
+/.cache/
+/cache/
+/data/
+.huggingface/
+
+# Jupyter
+.ipynb_checkpoints/
