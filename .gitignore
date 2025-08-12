@@ -4,6 +4,13 @@ __pycache__/
 .venv/
 .env
 .env.*
+llama_env/
+.ipynb_checkpoints/
+.DS_Store
+*.log
+*.checkpoint
+*.ckpt
+*.safetensors
 
 # Data / runs
 runs/
